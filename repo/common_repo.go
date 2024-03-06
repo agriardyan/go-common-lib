@@ -120,3 +120,7 @@ func (dbOp *DBOperation) FindAtColl(collection string, filter, impl interface{})
 
 	return impl, nil
 }
+
+func (dbOp *DBOperation) GetDBClient() *mongo.Client {
+	return dbOp.dbClient
+}

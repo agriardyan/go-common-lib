@@ -1,6 +1,10 @@
 # Changelog
 
-## Unreleased
+## 0.0.1-alpha.5
+### Added
+- Expose db client via method `GetDBClient` in common repo
+
+## 0.0.1-alpha.4
 ### Added
 - New err type unique constraint violation
 - Common auditing struct
